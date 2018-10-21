@@ -39,5 +39,27 @@ print(chr(20013))
 name = b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
 print(name)
 
-tips = 'Hi, %s, you have $%d. %s' % ('Michael', 1000000,"thinks")
+tips = 'Hi, %s, you have $%d. %s' % ('Michael', 1000000, "thinks")
 print(tips)
+
+s = 'Python-中文'
+print(s)
+b = s.encode('utf-8')
+print(b)
+print(b.decode('utf-8'))
+
+classmates = ['Michael', 'Bob', 'Tracy']
+print(len(classmates))
+print(classmates[-1])
+
+# 有序列表叫元组：tuple。tuple和list非常类似，但是tuple一旦初始化就不能修改
+t = (1, 2)
+print(t)
+print(len(t))
+print(t[1])
+
+t = ('a', 'b', ['A', 'B'])
+print(t[2])
+t[2][0] = 'x'
+t[2][1] = 'y'
+print(t[2])
