@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python2.7
 # -*- coding: utf-8 -*-
 
 # 递归函数
